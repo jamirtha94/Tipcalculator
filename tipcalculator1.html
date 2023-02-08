@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tip Calculator
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+    </head>
+    <body>
+       
+       <div id="container">
+        <h1> Tip Calculator</h1>
+        <form>
+        <div id=" section1">
+            <label> How much was your bill?<br>
+            <label>&dollar;</label>
+            <input type="text" id="amount" value>
+            </label>
+            <br><br>
+            <label>How was your service? <br>
+            <select id="servicequality">
+                <option disabled selected value="0"></option>> --Choose an option--</option>
+                <option value="0.5 "> 5&percnt; </option>
+                <option value="0.1"> 10&percnt; </option>
+                <option value="0.15"> 15&percnt; </option>
+                <option value="0.2"> 20&percnt; </option>
+            </select>
+            </label>
+            
+
+            <label> How many people are sharing the bill? <br>
+            <input type="text" id="count">
+            <label>people</label>
+            </label>
+            
+            <button type ="button" id="calculate"> CALCULATE!
+                </button>
+            
+        </form>
+           
+
+            <div id="totaltip">
+          <sup>$</sup><span id="tip">0.00</span>
+            <small id="each">each</small>
+            </div>
+       
+        </div> <!--section1-->
+       </div> <!--container-->
+       
+       <script type="text/javascript" src="script.js">
+
+
+        </script>
+    </body>
+</html>
